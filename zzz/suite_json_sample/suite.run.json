@@ -1,0 +1,26 @@
+{
+    "run": ["feature_2"],
+    "features": {
+        "feature_1": {
+            "run": ["group_1", "group_3"],
+            "groups": {
+                "group_1": ["case_1", "case_2", "case_3"],
+                "group_2": ["case_1", "case_3"],
+                "group_3": ["case_2", "case_4"]
+            }
+        },
+        "feature_2": {
+            "run": ["group_1"],
+            "groups": {
+                "group_1": ["case_1"]
+            }
+        },
+        "feature_3": {
+            "run": ["group_2"],
+            "groups": {
+                "group_1": ["case_1"],
+                "group_2": ["case_1", "case_2"]
+            }
+        }
+    }
+}

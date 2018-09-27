@@ -1,0 +1,5 @@
+{
+    "run": [
+        {"command": "hello", "arguments": ["doris", "everything happens for a reason."], "result": ""}
+    ]
+}

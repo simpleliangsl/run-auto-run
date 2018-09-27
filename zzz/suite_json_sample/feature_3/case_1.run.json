@@ -1,0 +1,7 @@
+{
+    "run": [
+        {"command": "command1", "arguments": ["arg1", "arg2", "arg3"], "result": "abc"},
+        {"command": "command2", "arguments": ["arg1", "arg2", "arg3"], "result": "abc"},
+        {"command": "command3", "arguments": ["arg1", "arg2", "arg3"], "result": "abc"}
+    ]
+}
